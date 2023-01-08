@@ -1,0 +1,165 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    font-family: 'Open Sans',sans-serif;
+}
+.banner{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.banner img{
+    width:100%;
+    display: block;
+}
+.banner-description{
+ position: absolute;
+ top: 295px;
+ left:955px;
+ font-size:20px;
+}
+.banner-description h1{
+    font-size: 100px;
+}
+.banner-description p{
+    font-size: 25px;
+    padding-left: 55px;
+    text-align: left;
+    color: #567890;
+    padding: 20px;
+}
+.btn-primary{
+    border-radius: 5px;
+    background-color: rgb(219, 128, 9);
+    color: aliceblue;
+    font-size: 25px;
+    margin-top: 55px;
+    width: 200px;
+}
+.banner-description .btn-primary{
+    margin-left:400px; 
+}
+.main{
+    width:100%;
+    height: 750px;
+    
+} 
+.details{
+    height:750px;
+}
+section{
+    margin-top: 80px;
+    display: flex;
+}
+.person img{
+    padding-left:250px;
+}
+.about-details{
+    width: 50%;  
+    margin-top: 180px;
+    margin-left:100px;
+}
+.about-details h3{
+    font-size: 50px;
+    padding-bottom:30px;
+    
+}
+.about-details p{
+    font-size: 20px;
+    padding-bottom:30px;
+}
+.option p{
+ font-size:20px;
+}
+.title h1{
+    font-weight: bold;
+    font-size: 50px;
+}
+.skill-image{
+    height: 250px;
+}
+.skill{
+    padding: 0 150px 0 150px;
+}
+.skills-container{
+display: flex;
+}
+.skill-title{
+font-weight: bold;
+font-size: 25px;
+margin-top: 30px;
+ text-align:center; 
+margin-bottom: 20px;
+}
+.skill-description{
+ font-weight:bold;
+font-size: 20px;
+color: gray;
+} 
+.about-watch{
+    height: 400px;
+}
+.watch{
+    height: 400px;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.watch-img {
+    /* width:75%;
+    height: 400px; */
+    margin-right:200px;
+    margin-left:210px;
+    background-image:url(../images/watch.png); 
+    /* background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 10%); */
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 1140px;
+    height: 300px;
+    left: 240px;
+}
+.watch-description{
+    position: absolute;
+    top: 45px;
+    right:400px;
+    font-size:50px;
+   }
+   .btn-primary{
+       height: 64px;
+       border-radius: 5px;
+       margin-right: 500px;  
+   }
+   /* contacts section */
+   .contact{
+    display: flex;
+    gap: 100px;
+    background: #d2e5f0;
+    padding: 130px 200px;
+}
+.contact p{
+    font-size:20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-bottom: 20px;
+   
+}
+.contact h3{
+    font-size: 30px;
+}
+.contact .section-title{
+    text-align: left;
+    padding-bottom:15px;
+}
+.contact input[type="text"],[type="email"], textarea{
+    margin-bottom: 4px;
+    border:0;
+    width: 70%;
+    padding-left: 18px 30px;
+    border-radius: 10px;
+}
+.contact a{
+    text-decoration: none;
+    padding-left: 15px;
+}
+input{
+height: 64px;
+}
